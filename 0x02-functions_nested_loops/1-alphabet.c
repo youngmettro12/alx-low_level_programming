@@ -6,7 +6,7 @@
  * Retrun: 0
  */
 
-void Print_alphabet(void)
+void 'Print_alphabet'(void)
 {
 	char c = 'a';
 

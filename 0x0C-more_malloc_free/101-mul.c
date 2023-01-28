@@ -116,10 +116,10 @@ int main(int argc, char *argv[])
 			k = lnout - 1, i = ln1 - 1, j = ln2 - 1, ca = addl = 0;
 		}
 		if (j >= 0)
-		{
+		{i
 			add = ((argv[1][i] - '0') * (argv[2][j] - '0')) + (nout[k] - '0') + addl;
 			addl = add / 10, nout[k] = (add % 10) + '0';
-		}
+		}OA
 	}
 	printf("%s\n", nout);
 	return (0);
